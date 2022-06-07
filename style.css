@@ -1,37 +1,79 @@
-body{
-    background-color: #e0e0d1;
-    /* border: 2px black solid; */
+body {
+  background-color: #e0e0d1;
+  /* border: 2px black solid; */
 }
-header, section{
-    /* border: 2px black solid; */
-    margin: 0 300px;
-    margin-bottom: 5px;
-    background-color: white; 
-    padding: 20px 0;
+header,
+section {
+  /* border: 2px black solid; */
+  margin: 0 300px;
+  margin-bottom: 5px;
+  background-color: white;
+  padding: 20px 0;
 }
-header{
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  height: 60px;
+  /* margin-top: 20px; */
+}
+header a {
+  text-decoration: unset;
+  color: black;
+  font-size: large;
+  padding: 20px;
+  font-weight: bold;
+}
+.s1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.img_p{
+  background-image: url("img/maxima_people.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 450px;
+}
+section.s1 h1{
+    text-align: center;
+}
+section.s2 img{
+    /* border: 2px black solid; */
+    height: 240px;
+    width: 280px;
+   
+}
+section.s2{
+    display: block;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-header img{
-    height: 60px;
-    /* margin-top: 20px; */
-}
-header a{
-    text-decoration: unset;
-    color: black;
-    font-size: large;
-    padding: 20px;
+section.s2 p{
     font-weight: bold;
+    font-size: large;
+    margin: 0px;
+    /* border: 2px black solid; */
 }
-.s1{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+section p.t1::before{
+content: "Kaina:";
+font-weight: normal;
 }
-.s1 img{
+section.s3 img{
     height: 500px;
-width: 1170px;
+    width: 1190px;
+    margin: 20px;
+    margin-top: 0px;
+}
+section.s3 li{
+    margin-left: 50px;
+    font-weight: bolder;
+}
+.s4{
+    text-align: center;
 }
