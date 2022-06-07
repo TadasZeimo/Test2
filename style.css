@@ -1,0 +1,37 @@
+body{
+    background-color: #e0e0d1;
+    /* border: 2px black solid; */
+}
+header, section{
+    /* border: 2px black solid; */
+    margin: 0 300px;
+    margin-bottom: 5px;
+    background-color: white; 
+    padding: 20px 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+    height: 60px;
+    /* margin-top: 20px; */
+}
+header a{
+    text-decoration: unset;
+    color: black;
+    font-size: large;
+    padding: 20px;
+    font-weight: bold;
+}
+.s1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s1 img{
+    height: 500px;
+width: 1170px;
+}
